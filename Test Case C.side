@@ -1,0 +1,202 @@
+{
+  "id": "2fda628b-64c5-47b9-a4c2-0b5cdbff61c9",
+  "version": "2.0",
+  "name": "Test Case C",
+  "url": "https://www.baykartech.com",
+  "tests": [{
+    "id": "08db0466-1a32-41ff-9292-77f5f3606d9a",
+    "name": "filter",
+    "commands": [{
+      "id": "444c72c7-b9f5-40c0-b2bd-64cfe1bf9cb5",
+      "comment": "",
+      "command": "open",
+      "target": "/tr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82ed33dd-a5a5-47f6-8b9e-be968d6faf35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1096x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3c1f88f-2757-45a6-a418-4d899652ff3a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=.lang > a", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "293b1cd4-da3d-4d05-b09f-8c089e9b6e96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KARİYER",
+      "targets": [
+        ["linkText=KARİYER", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'KARİYER')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kariyer.baykartech.com/tr/')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KARİYER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93ddacbc-af69-45ab-8d96-4a1d55f80228",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "015d4aea-69e9-4488-9f74-b61c5bbbe7f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,656.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71f70fd6-650b-4f61-82d4-08a3828a4acf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TÜM AÇIK POZİSYONLAR",
+      "targets": [
+        ["linkText=TÜM AÇIK POZİSYONLAR", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='open-positions']/div[3]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tr/basvuru/acik-pozisyonlar/')])[55]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TÜM AÇIK POZİSYONLAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e0395c7-5836-45f5-b272-1bb695469c55",
+      "comment": "",
+      "command": "click",
+      "target": "id=myInput2",
+      "targets": [
+        ["id=myInput2", "id"],
+        ["css=#myInput2", "css:finder"],
+        ["xpath=//input[@id='myInput2']", "xpath:attributes"],
+        ["xpath=//div[@id='collapse']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "472dd65c-8cc6-4c1b-a2d5-0c59f9324ffa",
+      "comment": "",
+      "command": "click",
+      "target": "id=myInput",
+      "targets": [
+        ["id=myInput", "id"],
+        ["css=#myInput", "css:finder"],
+        ["xpath=//input[@id='myInput']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "186ae49c-05f0-4976-b9a8-46839426f17f",
+      "comment": "",
+      "command": "type",
+      "target": "id=myInput",
+      "targets": [
+        ["id=myInput", "id"],
+        ["css=#myInput", "css:finder"],
+        ["xpath=//input[@id='myInput']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "cb0c35b1-cbfb-457a-a723-d940254a7817",
+      "comment": "",
+      "command": "click",
+      "target": "css=#collapse > .panel-body",
+      "targets": [
+        ["css=#collapse > .panel-body", "css:finder"],
+        ["xpath=//div[@id='collapse']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0002b78a-21c4-407b-b269-a953a8c475b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=myInput2",
+      "targets": [
+        ["id=myInput2", "id"],
+        ["css=#myInput2", "css:finder"],
+        ["xpath=//input[@id='myInput2']", "xpath:attributes"],
+        ["xpath=//div[@id='collapse']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5689124-6b9d-4642-9edf-b2a0cc034251",
+      "comment": "",
+      "command": "type",
+      "target": "id=myInput2",
+      "targets": [
+        ["id=myInput2", "id"],
+        ["css=#myInput2", "css:finder"],
+        ["xpath=//input[@id='myInput2']", "xpath:attributes"],
+        ["xpath=//div[@id='collapse']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "akıllı"
+    }, {
+      "id": "b70cad3f-ab9f-4452-9041-3b7003d5bf4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=50",
+      "targets": [
+        ["id=50", "id"],
+        ["css=#\\35 0", "css:finder"],
+        ["xpath=//input[@id='50']", "xpath:attributes"],
+        ["xpath=//ul[@id='myUL2']/div[15]/li/a/label/input", "xpath:idRelative"],
+        ["xpath=//div[15]/li/a/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ae4af0-3c0f-4a2f-9df3-73bb325f42f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.liProgram:nth-child(4) .position-category",
+      "targets": [
+        ["css=.liProgram:nth-child(4) .position-category", "css:finder"],
+        ["xpath=//ul[@id='myUL']/li[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88110578-1dea-413c-84a1-3ca44b4133b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.liProgram:nth-child(4) a",
+      "targets": [
+        ["css=.liProgram:nth-child(4) a", "css:finder"],
+        ["xpath=//ul[@id='myUL']/li[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/basvuru/acik-pozisyonlar/akilli-web-sistemleri-yazilim-test-uzmani')]", "xpath:href"],
+        ["xpath=//li[4]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "74dd8d87-8e03-4788-bd62-dda89a0ab97a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08db0466-1a32-41ff-9292-77f5f3606d9a"]
+  }],
+  "urls": ["https://www.baykartech.com/"],
+  "plugins": []
+}

@@ -1,0 +1,810 @@
+{
+  "id": "b8799bee-8dc5-433b-ac83-0d7e4c545cfc",
+  "version": "2.0",
+  "name": "Test Case A",
+  "url": "https://www.baykartech.com",
+  "tests": [{
+    "id": "164b1e77-0c09-4e87-ac60-a330aa73c12e",
+    "name": "navigation",
+    "commands": [{
+      "id": "02cf5efc-78b9-4c16-95ff-a757a9a1b559",
+      "comment": "",
+      "command": "open",
+      "target": "/tr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "065cdf1d-1759-4c07-a870-5a03a94f2727",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef7e0cc0-2c0c-4df6-8bea-15296582d6ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2a5c2d-5ff8-4a78-8df0-1eb75adceb55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Biz Baykarız",
+      "targets": [
+        ["linkText=Biz Baykarız", "linkText"],
+        ["css=.show .mega-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Biz Baykarız')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/biz-baykariz/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Biz Baykarız')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5f20cc-0cb5-4753-a32f-35c4d26db323",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b85ddb7c-9baf-4c1d-a5e4-0dfe4a26bc8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vizyon",
+      "targets": [
+        ["linkText=Vizyon", "linkText"],
+        ["css=.show .mega-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Vizyon')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/vizyon/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Vizyon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "367be558-4d59-4a17-a220-7e86d8f935a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67db7ce6-c2c7-4406-b6ca-70ffc433a1ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tarihçe",
+      "targets": [
+        ["linkText=Tarihçe", "linkText"],
+        ["css=.show .mega-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tarihçe')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/tarihce/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tarihçe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ae6c919-85ca-480c-a718-1cfa70aef5f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c3d8d59-2546-4c08-97b4-a3a8c5611ef8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Teknolojik Yetkinlikler/ Kabiliyetler",
+      "targets": [
+        ["linkText=Teknolojik Yetkinlikler/ Kabiliyetler", "linkText"],
+        ["css=.show .mega-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teknolojik Yetkinlikler/ Kabiliyetler')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/teknolojik-yetkinlikler-kabiliyetler/')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Teknolojik Yetkinlikler/ Kabiliyetler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd7721e9-6c4f-4584-b10a-6f4303c09e9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f41e90-400c-46f2-bc17-4b2a909d145f",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8e0924-99d3-4a73-8cab-a948191b1af1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sosyal Sorumluluk",
+      "targets": [
+        ["linkText=Sosyal Sorumluluk", "linkText"],
+        ["css=.show .mega-link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sosyal Sorumluluk')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/about/socialresponsibility/')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sosyal Sorumluluk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d79b6a-9abb-46f2-b61d-bd3d914d344c",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b598f8e2-89e0-4371-abca-11daa51fc4f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dokümanlar",
+      "targets": [
+        ["linkText=Dokümanlar", "linkText"],
+        ["css=.show .mega-link:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Dokümanlar')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/dokumanlar/')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Dokümanlar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ffd592-26b3-46ff-9542-7678ca8d72ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ec89157-5228-43d8-ab65-04d5e2edac85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Yönetim",
+      "targets": [
+        ["linkText=Yönetim", "linkText"],
+        ["css=.show .mega-link:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Yönetim')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/yonetim/')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Yönetim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e8b1e5-141c-4e53-b42a-f869860f220a",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMegaMenu",
+      "targets": [
+        ["id=dropdownMegaMenu", "id"],
+        ["linkText=HAKKIMIZDA", "linkText"],
+        ["css=.dropdown:nth-child(1) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'HAKKIMIZDA')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMegaMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HAKKIMIZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e107a114-ae5b-49e5-b31f-9e0fdcef22ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Haberler",
+      "targets": [
+        ["linkText=Haberler", "linkText"],
+        ["css=.show .mega-link:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Haberler')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/haberler/')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Haberler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4efc21b1-e102-47c5-ae00-3506d6ba446e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kalite Politikamız",
+      "targets": [
+        ["linkText=Kalite Politikamız", "linkText"],
+        ["css=.show .mega-link:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kalite Politikamız')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div/div/div/div[2]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/kalite-politikamiz/')]", "xpath:href"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Kalite Politikamız')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ff2c77-92ac-4ca9-b887-4cd1390a70c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0e6739-b4f2-4519-84c4-a47edc102dac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=İnsansız Hava Aracı Sistemleri",
+      "targets": [
+        ["linkText=İnsansız Hava Aracı Sistemleri", "linkText"],
+        ["css=.show .mega-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'İnsansız Hava Aracı Sistemleri')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/insansiz-hava-araci-sistemleri/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'İnsansız Hava Aracı Sistemleri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "864fd9c3-fcf9-4544-8789-22ea5b3b0359",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aed80f2-7eff-46f3-b770-348d72062951",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Komuta, Kontrol, Haberleşme, Bilgisayar ve İstihbarat (C4I)",
+      "targets": [
+        ["linkText=Komuta, Kontrol, Haberleşme, Bilgisayar ve İstihbarat (C4I)", "linkText"],
+        ["css=.show .mega-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Komuta, Kontrol, Haberleşme, Bilgisayar ve İstihbarat (C4I)')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/komuta-kontrol-haberlesme-bilgisayar-ve-istihbarat/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Komuta, Kontrol, Haberleşme, Bilgisayar ve İstihbarat (C4I)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9d9c50-a9ed-4fbf-b641-e84ed5732649",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "769aad88-b9b7-4fef-a42b-782006a16a4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aviyonikler/Alt Sistemler",
+      "targets": [
+        ["linkText=Aviyonikler/Alt Sistemler", "linkText"],
+        ["css=.show .mega-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Aviyonikler/Alt Sistemler')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/aviyonikler-alt-sistemler/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Aviyonikler/Alt Sistemler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24b509d3-83c9-46c9-9bc7-e2d855c503ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Simülatör Sistemi",
+      "targets": [
+        ["linkText=Simülatör Sistemi", "linkText"],
+        ["css=.show .mega-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Simülatör Sistemi')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/simulator-sistemi/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Simülatör Sistemi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f53840-1409-46e5-ab64-08694c4258d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "536633c6-c6c0-4a2c-8c5b-7d9fb2716460",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faydalı Yük Sistemleri",
+      "targets": [
+        ["linkText=Faydalı Yük Sistemleri", "linkText"],
+        ["css=.show .mega-link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Faydalı Yük Sistemleri')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/faydali-yuk-sistemleri/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Faydalı Yük Sistemleri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc562b8-9e0d-4a90-850c-f1c03f46678e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03112e97-9fda-4492-8c4a-641afb6bef2e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ağ Merkezli Yazılım",
+      "targets": [
+        ["linkText=Ağ Merkezli Yazılım", "linkText"],
+        ["css=.show .mega-link:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ağ Merkezli Yazılım')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/ag-merkezli-yazilim/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ağ Merkezli Yazılım')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78aff2a2-b289-49ee-8e65-14a3921694a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3410489f-062e-44e4-b3c3-6d74148dda83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri",
+      "targets": [
+        ["linkText=Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri", "linkText"],
+        ["css=.show .mega-link:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/faydali-yuk-ve-iha-operatoru-kullanici-egitimleri/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c94a1e1c-ca4d-4ca5-a39f-b05f07c833a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2cabb0d-35bd-40a2-b018-59d3623d82f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri",
+      "targets": [
+        ["linkText=Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri", "linkText"],
+        ["css=.show .mega-link:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/faydali-yuk-ve-iha-operatoru-kullanici-egitimleri/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Faydalı Yük Ve İHA Operatörü Kullanıcı Eğitimleri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5807827-ef1a-4b4b-8bfc-ec9cb5d7a18f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38a4833b-ab40-4af3-8e26-f8219d942b90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Orman Yangınlarıyla Mücadele",
+      "targets": [
+        ["linkText=Orman Yangınlarıyla Mücadele", "linkText"],
+        ["css=.show .mega-link:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Orman Yangınlarıyla Mücadele')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/orman-yanginlariyla-mucadele/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Orman Yangınlarıyla Mücadele')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00435067-7f78-4b97-9a62-4cdbbc8c7570",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NELER YAPIYORUZ",
+      "targets": [
+        ["linkText=NELER YAPIYORUZ", "linkText"],
+        ["css=.dropdown:nth-child(2) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'NELER YAPIYORUZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NELER YAPIYORUZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b6db59-bdce-49f0-918f-dd80872bc424",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Satış Sonrası Hizmetler",
+      "targets": [
+        ["linkText=Satış Sonrası Hizmetler", "linkText"],
+        ["css=.show .mega-link:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Satış Sonrası Hizmetler')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[2]/div/div/div[2]/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/satis-sonrasi-hizmetler/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Satış Sonrası Hizmetler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b2250b-4321-4890-b619-6f7758dc289c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GELECEĞİMİZ",
+      "targets": [
+        ["linkText=GELECEĞİMİZ", "linkText"],
+        ["css=.dropdown:nth-child(3) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'GELECEĞİMİZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'GELECEĞİMİZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a43ede-30f5-4436-a41c-65ebf76f51b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Merkezi Komuta Kontrol",
+      "targets": [
+        ["linkText=Merkezi Komuta Kontrol", "linkText"],
+        ["css=.show .mega-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Merkezi Komuta Kontrol')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/merkezi-komuta-kontrol/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Merkezi Komuta Kontrol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2742f6a6-bba9-4e3f-9474-c1b01a026213",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GELECEĞİMİZ",
+      "targets": [
+        ["linkText=GELECEĞİMİZ", "linkText"],
+        ["css=.dropdown:nth-child(3) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'GELECEĞİMİZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'GELECEĞİMİZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8378b3d4-3cae-46ca-93ef-3a76caa6d55d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Yapay Zeka",
+      "targets": [
+        ["linkText=Yapay Zeka", "linkText"],
+        ["css=.show .mega-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Yapay Zeka')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[3]/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/yapay-zeka/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Yapay Zeka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2a0f430-7fa6-4fa1-b477-62548ec4b8ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GELECEĞİMİZ",
+      "targets": [
+        ["linkText=GELECEĞİMİZ", "linkText"],
+        ["css=.dropdown:nth-child(3) > #dropdownMegaMenu", "css:finder"],
+        ["xpath=//a[contains(text(),'GELECEĞİMİZ')]", "xpath:link"],
+        ["xpath=(//a[@id='dropdownMegaMenu'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'GELECEĞİMİZ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2f156d8-9a6d-4e0e-90cc-94c1b858b8e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cezeri Uçan Araba",
+      "targets": [
+        ["linkText=Cezeri Uçan Araba", "linkText"],
+        ["css=.show .mega-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Cezeri Uçan Araba')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/div[3]/div/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/cezeri-ucan-araba/')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cezeri Uçan Araba')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8beb1dd0-8041-4979-a772-5ccb9994f4e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KARİYER",
+      "targets": [
+        ["linkText=KARİYER", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'KARİYER')]", "xpath:link"],
+        ["xpath=//div[@id='navbarHeaderNav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kariyer.baykartech.com/tr/')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KARİYER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b5e3ce2-26f4-4ff7-87de-98967421f1e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=S.S.S",
+      "targets": [
+        ["linkText=S.S.S", "linkText"],
+        ["css=li:nth-child(4) > .smooth-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'S.S.S')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/#contact')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'S.S.S')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3da9c22b-2ee1-4d42-9317-c538a303f213",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=S.S.S",
+      "targets": [
+        ["linkText=S.S.S", "linkText"],
+        ["css=li:nth-child(4) > .smooth-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'S.S.S')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/#contact')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'S.S.S')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20c6bdb1-4465-4dfa-8df5-987c13971afb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=STAJ",
+      "targets": [
+        ["linkText=STAJ", "linkText"],
+        ["css=.on > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'STAJ')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#home')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'STAJ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "179f2e74-1488-4502-b11c-657b53c6961a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=S.S.S",
+      "targets": [
+        ["linkText=S.S.S", "linkText"],
+        ["css=li:nth-child(4) > .smooth-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'S.S.S')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/tr/#contact')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'S.S.S')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bcd4840-a66c-4935-8a35-cf2586640800",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BAYKAR",
+      "targets": [
+        ["linkText=BAYKAR", "linkText"],
+        ["css=li:nth-child(5) > .smooth-menu", "css:finder"],
+        ["xpath=//a[contains(text(),'BAYKAR')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://baykartech.com/tr/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BAYKAR')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6728",
+      "windowTimeout": 2000
+    }, {
+      "id": "9357abb7-0acb-4dac-a7e0-3dbf80d98a08",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6728}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "142855da-fda5-47c4-ad9c-8ab6884bd8a2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["164b1e77-0c09-4e87-ac60-a330aa73c12e"]
+  }],
+  "urls": ["https://www.baykartech.com/"],
+  "plugins": []
+}

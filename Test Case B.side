@@ -1,0 +1,63 @@
+{
+  "id": "d535b158-8291-4f51-9522-9b699297fc34",
+  "version": "2.0",
+  "name": "Test Case B",
+  "url": "https://www.baykartech.com",
+  "tests": [{
+    "id": "79d12351-920e-4051-9e55-8a90f3268738",
+    "name": "Language",
+    "commands": [{
+      "id": "81146309-b596-43f0-9ac5-5c16401150b1",
+      "comment": "",
+      "command": "open",
+      "target": "/tr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dd63c92-9649-456d-96d7-7560a061e78b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84e9abd9-cb1d-43cd-b842-5d00ec803024",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=.lang > a", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d65ce1a6-0cfc-4798-85e2-b628bb98abc7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TR",
+      "targets": [
+        ["linkText=TR", "linkText"],
+        ["css=.lang > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TR')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/tr/')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "efc1a3f8-5d79-40f2-a28f-2ce7514d0d0c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["79d12351-920e-4051-9e55-8a90f3268738"]
+  }],
+  "urls": ["https://www.baykartech.com/"],
+  "plugins": []
+}

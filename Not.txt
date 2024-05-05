@@ -1,0 +1,9 @@
+Merhaba,
+
+Ürün bazlı manuel test koşumu gerçekleştirdiğim için otomasyon bilgim yeterli seviyede değildir.
+
+Dil bilgim olmamasından dolayı ide eklentisi ile, Jmeter ile daha önce gerçekleştirmediğimden dolayı LoadFocus eklentisi yapmaya çalıştım.
+
+Teşekkür ederim,
+Saygılarımla
+
